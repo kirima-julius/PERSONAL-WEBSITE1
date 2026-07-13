@@ -1,0 +1,93 @@
+:root {
+    --secondary-color:aqua;
+    --primary-color:#071428;
+    --main-width:600px;
+    --main-margin:0 auto;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(217, 196, 255);
+}
+.main {
+    
+    width: 600px;
+    margin: var(--main-margin);
+    padding: 3px;
+}
+.abm {
+ background-color:var(--secondary-color);
+ width: 190px;
+ border-radius: 8px;
+ text-align: center;
+ margin: 0 auto;
+ margin-bottom: 20px;
+ margin-top: 40px;
+ padding: 9px;
+ color: #071428;
+ text-shadow: 3px 3px 5px white;
+ font-size: 20px;
+
+}
+.sub-main {
+display: flex;
+align-items: center;
+font-size: 16px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: var(--main-margin);
+width: 600px;
+
+}
+
+#avatar {
+    border-radius: 50%;
+    border:2px solid #071428;
+}
+.figcaption {
+    text-align: center;
+    font-weight: bolder;
+    color: #071428;
+}
+
+.mh {
+    margin-bottom: 9px;
+}
+
+.form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 0px 0px 4px var(--primary-color);
+    padding: 9px;
+    border-radius: 8px;
+    border-top:4px solid #071428;
+    
+    
+}
+
+.fh {
+    text-align: center;
+    font-size: 20px;
+    border: none;
+}
+
+.btn {
+    
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 7px;
+    border: none;
+    border-radius: 8px;
+    background-color: #071428;
+    color: aqua;
+}
+
+.name , .email , .message {
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    background-color:var(--secondary-color) ;
+    padding:9px ;
+}
